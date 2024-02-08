@@ -1,4 +1,4 @@
-* C-STYLE STRING AND C++ STRING
+# C-STYLE STRING AND C++ STRING
 - to use c style strings - #include <cstring>
 - cystle strings are uninitialized and has garbage value.
 - cstrings are fixed in size, 
