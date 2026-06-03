@@ -1,0 +1,24 @@
+/******************************************************************************
+@@@@@@ Exponent @@@@@
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int pow(int m, int n)
+{
+    if(n==0)
+    {
+        return 1;
+    }
+    return (pow(m, n-1))*m;
+}
+
+int main()
+{
+    int res = pow(5, 3);
+    std::cout<< "Hello World " <<res << endl;
+
+    return 0;
+}
